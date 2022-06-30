@@ -5,6 +5,12 @@ class Animal{
     char *name;
 
     public:
+
+        // Default constructor.
+        // Executes at the creation of the object even it is written in the code.
+        Animal(){
+
+        }
         
         Animal(char *name){
             this->name = name;
